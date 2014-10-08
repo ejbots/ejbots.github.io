@@ -1,0 +1,30 @@
+body {	
+	background: url("assets/background.jpg"); 
+	background-repeat: no-repeat;
+	background-color: #404657;
+	margin-left: 100px;
+	line-height: 20px;	
+	padding-top: 300px;
+}
+.topStripe {
+	background: url("assets/stripes.png");
+	background-repeat: repeat-x;
+	height: 13px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+p {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFFFFF;
+	
+}
+hr {
+	margin-left: 0px;
+	border-color: #F4555C;
+	width: 20px;	
+}
+
