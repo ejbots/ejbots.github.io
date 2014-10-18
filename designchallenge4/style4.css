@@ -27,6 +27,7 @@ h1 {
 .bg {
 	background: url("images/cattle.jpg");
 	background-size: cover;
+	opacity: 80%
 	background-image: fixed;
 	height: 700px;
 	width: 1000px;
@@ -46,7 +47,7 @@ h2 {
 	z-index: 3;
 }
 .secondframe {
-	background: #E6E6E6;
+	background: #F2DFA7;
 	position: absolute;
 	height: 500px;
 	width: 1000px;
