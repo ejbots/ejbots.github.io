@@ -19,8 +19,29 @@ top: 0;
 left: 0;
 z-index: 3;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	float: right;
+	overflow: hidden;
+	padding-right: 90px;
+}
+a {
+	display: block;
+	font-weight: bold;
+	font-family: 'Lobster', serif;
+	font-size: 25px;	
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 12px;
+
+}
 h1 {
-	font-size: 45px;
+	font-size: 44px;
 	font-family: 'Lobster', serif;
 	color: #FFFFFF;
 	font-weight: normal;
