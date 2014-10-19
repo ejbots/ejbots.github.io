@@ -5,10 +5,10 @@ body {
 	background: url("images/tbone.png") no-repeat;
 	background-size: contain;
 	background-image: absolute;
-	background-position: 0px 40px;
 	height: 1200px;
 	width: auto;
-
+	top: 0;
+	left: 0;
 }
 .topStripe {
 background: #000000;
@@ -19,35 +19,26 @@ top: 0;
 left: 0;
 z-index: 3;
 }
-h1 {
-	font-size: 45px;
-	font-family: 'Lobster', serif;
-	color: #FFFFFF;
-	font-weight: normal;
-	position: absolute;
-	float: center;
-	margin-top: 1px;
-	margin-left: 40px;
-	z-index: 2;
-}
+
 .nametext {
 	color: #FFFFFF;
 	font-weight: normal;	
 	position: absolute;
 	text-align: left;
 }
-h2 {
-	font-size: 70px;
+h1 {
+	font-size: 100px;
+	font-family: 'Lobster', serif;
 	font-weight: normal;
-	font-family: 'Bitter', serif;
-	margin-left: 45px;
-	padding-top: 200px;
+	margin-top: 150px;
+	margin-left: 40px;
 }
-p {
-	font-size: 27px;
+
+h2 {
+	font-size: 25px;
 	font-weight: normal;
 	font-family: 'Bitter', serif;
 	margin-left: 45px;
 	line-height: 50px;
-	padding-top: 35px;
+	padding-top: 70px;
 }
