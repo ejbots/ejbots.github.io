@@ -1,21 +1,23 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-body {	
-	background-color: #FFFFFF;
-	background: url("images/tbone.png") no-repeat;
-	background-size: contain;
-	background-image: absolute;
-	background-position: 0px 40px;
-	height: 1200px;
-	width: auto;
-
+body {
+    background: url("images/tbone.png") no-repeat;
+   	background-size: cover;
 }
-.topStripe {
-	background: #000000;
-	height: 75px;
+#topStripe {
+	background: #C31013;
+	height: 10px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+#navStripe {
+	background: #0D0D0D;
+	height: 80px;
 	width: 100%;
 	position: fixed;
-	top: 0;
+	top: 10px;
 	left: 0;
 	z-index: 3;
 }
@@ -27,46 +29,49 @@ ul {
 li {
 	float: right;
 	overflow: hidden;
-	padding-right: 90px;
+	padding-right: 100px;
 }
 a {
 	display: block;
+	width: 55px;
 	font-weight: bold;
 	font-family: 'Lobster', serif;
 	font-size: 25px;	
-	color: #FFFFFF;
+	color: #FFF8E3;
 	text-align: center;
 	text-decoration: none;
 	margin-top: 20px;
 
 }
 h1 {
-	font-size: 44px;
+	font-size: 66px;
 	font-family: 'Lobster', serif;
-	color: #FFFFFF;
+	color: #FFF8E3;
+	text-shadow: 2px 2px #CCCC9F;
 	font-weight: normal;
-	position: absolute;
-	float: center;
-	margin-top: 7px;
-	margin-left: 90px;
+	letter-spacing: 2px;
+	position: relative;
+	float: left;
+	margin-top: -5px;
+	margin-left: 100px;
 	z-index: 2;
 }
-.nametext {
-	color: #FFFFFF;
-	font-family: 'Bitter', serif;	
-	position: relative;
-	text-align: left;
+#sloganPos {
+	position: fixed;
+	top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
 }
-h2 {
-	font-size: 80px;
-	font-weight: bolder;
-	margin-left: 90px;
-	padding-top: 300px;
-}
-p {
-	font-size: 27px;
+#slogan {
+	text-align: center;
+	font-family: 'Bitter', serif;
+	color: #FFFFFF;	
+	font-size: 30px;
 	font-weight: normal;
-	margin-left: 95px;
-	line-height: 1.62em;
-	padding-top: 65px;
+	line-height: 40px;
+	letter-spacing: 2px;
+
+	padding-top: 180px;
 }
+
