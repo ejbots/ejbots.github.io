@@ -1,8 +1,14 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-    background: url("images/tbone.png") no-repeat;
+	background: url("images/tbone.png") no-repeat;
    	background-size: cover;
+}
+header {
+	background-color:#0d0d0d;
+	border-top:#c31013 10px solid;
+	height:80px;
+	width:100%;
 }
 #topStripe {
 	background: #C31013;
@@ -22,16 +28,18 @@ body {
 	z-index: 3;
 }
 ul {
+	float:left;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 li {
-	float: right;
-	overflow: hidden;
-	padding-right: 100px;
+	display:inline;
+	/*overflow: hidden; */
+	/* padding-right: 100px; */
 }
 a {
+	float:left;
 	display: block;
 	width: 55px;
 	font-weight: bold;
