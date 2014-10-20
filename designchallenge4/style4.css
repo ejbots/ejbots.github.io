@@ -3,7 +3,7 @@
 body {	
 	background-color: #FFFFFF;
 	background: url("images/tbone.png") no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-image: absolute;
 	background-position: 0px 40px;
 	height: 1200px;
@@ -12,7 +12,7 @@ body {
 }
 .topStripe {
 	background: #000000;
-	height: 80px;
+	height: 75px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -47,7 +47,7 @@ h1 {
 	font-weight: normal;
 	position: absolute;
 	float: center;
-	margin-top: 10px;
+	margin-top: 7px;
 	margin-left: 90px;
 	z-index: 2;
 }
