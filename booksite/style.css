@@ -58,15 +58,17 @@ ul {
 }
 
 li {
-  	display: inline;
+  	display: inline-block;
+  	white-space: nowrap;
 }
 
 nav a {
 	float: left;
+
   	color: #547B97;
   	text-decoration: none;
   	text-align: center;
-  	padding: 5px 100px;
+  	margin: 5px 80px;
 }
 
 a:hover {
