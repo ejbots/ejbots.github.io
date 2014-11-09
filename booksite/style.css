@@ -1,38 +1,37 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-html {
+/*html {
 	background: url("assets/openbook.jpg") no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-}
+}*/
 
 body {
 	font-family: 'Raleway', sans-serif;
-
  	letter-spacing: 2px;
 }
 
 header {
-	background-color: #0C273D;
-	margin: 8px 460px;
-	border: 4px solid #FFF;
-
+	background-image: linear-gradient(#547B97, #212B40 70%, #0C273D);
+	margin: 0px auto; 
+	float: center;
+	width: 100%;
 }
 
 .logo {
-	width: 240px;
-	height: 100px;
+
+	width: 200px;
+	height: 70px;
 	display: block;
 	margin: 0 auto;
-	padding-top: 0px;
 }
 
 h1 {
 	color: #FFF;
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
-	margin-top: -30px;
+	margin-top: -20px;
 	letter-spacing: 4px;
 }
 
@@ -42,10 +41,14 @@ strong {
 
 nav {
 	background-color: #BADCDD;
-  	font-size: 20px;
+  	font-size: 18px;
   	text-align: center;
-  	margin-top: 20px;
-  	padding-top: 4px;
+	border-style: solid;
+	border-color: #FFF;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 80px;
+	border-right-width: 80px;
 }
 
 ul {
@@ -59,28 +62,82 @@ li {
 
 nav a {
 	float: left;
-  	color: #0C273D;
+  	color: #547B97;
   	text-decoration: none;
   	text-align: center;
-  	padding: 0px 100px;
+  	padding: 5px 100px;
 }
 
 a:hover {
-	color: #FFF;
+	color: #fff;
 }
 
-.shelfbg {
-	display: block;
-	margin: 0 auto;
+.hero {
+	width: 100%;
+	height: auto;
+
+}
+
+#bodyWrapper {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#contentWrap {
+	position: absolute;
+	top: 100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+h2 {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Baskerville', serif;
+	font-weight: normal;
+	letter-spacing: 5px;
+	z-index: 1;
+	width: 100%;
+}
+
+.button {
+	width: 250px;
+	margin-top: 60px;
+	z-index: 2;
+
+}
+#botStripe {
+	background-color: #BADCDD;
+	height: 20px;
 	clear: both;
-	width: 960px;
-	opacity: .6;
+	margin-top: -4px;
+}
+footer {
+	background-color: #fff;
+	height: 100px;
+	width: 100%;
+	left: 0;
+	bottom: 0;
 }
 
-#hero {
-	background-color: #0C273D;
+#footWrapper {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+hr {
+	border-color: #547B97;;
+	width: 300px;
+	margin: 60px auto 20px auto;
+
 }
 
-#exploreTab {
-	color: #FFF;
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+  	color: #547B97;
+
 }
